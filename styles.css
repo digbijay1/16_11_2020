@@ -12,6 +12,10 @@
     width: 100%;
     border-spacing: 0px;
   }
+section{
+    width: 100%;
+  }
+  
 
 
   header{
@@ -22,15 +26,13 @@
   }
   
   
-  section{
-    width: 100%;
-  }
   
   
   
   section table tbody tr td{
+    border-top: none;
+    padding: 2px;
     border: 2px solid black;
     border-right: none;
-    border-top: none;
-    padding: 1px;
+   
   }
